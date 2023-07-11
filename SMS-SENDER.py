@@ -1,9 +1,9 @@
 from twilio.rest import Client
 
 # Twilio account SID and authentication token
-account_sid = "AC0a16a9148cf9bca93e092911322d1a2"
-auth_token = "3b7160e8e0d9f120582c3cbb1be959f"
-twilio_phone_number = "+1486236375"
+account_sid = "AC0a16a9148f9bca93e092911322d1a2"
+auth_token = "3b7160e8e0d9120582c3cbb1be959f"
+twilio_phone_number = "+148236375"
 
 def send_sms(phone_number, message):
     try:
